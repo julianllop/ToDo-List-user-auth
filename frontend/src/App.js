@@ -9,7 +9,8 @@ import Login from "./components/login/login";
 import { useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
 import Register from "./components/register/register";
-axios.defaults.baseURL = "http://localhost:3001";
+// axios.defaults.baseURL = "http://localhost:3001";
+axios.defaults.baseURL = "https://todo-list-server-0ynp.onrender.com";
 
 function App() {
     const navigate = useNavigate();
