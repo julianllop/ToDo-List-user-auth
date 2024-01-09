@@ -1,0 +1,24 @@
+.title {
+    margin: 0;
+}
+
+.task{
+    width: 100%;
+}
+
+@media screen and (max-width: 400px) {
+    .title {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .title {
+        font-size: 21px;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .title {
+        font-size: 30px;
+    }
+}

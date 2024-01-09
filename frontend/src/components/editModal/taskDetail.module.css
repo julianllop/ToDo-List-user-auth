@@ -1,0 +1,16 @@
+.modal {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.modal:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 400px) {
+    .modal {
+        width: 110px;
+    }
+}

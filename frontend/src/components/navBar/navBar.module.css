@@ -1,0 +1,19 @@
+.link{
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+    font-weight: 500;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 280px) {
+    .link{
+        font-size: small;
+    }
+}
